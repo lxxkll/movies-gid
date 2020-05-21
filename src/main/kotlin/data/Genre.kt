@@ -6,11 +6,12 @@ data class Genre(
 
 fun genreList(): Array<Genre> {
     return arrayOf(
+        Genre ("Детектив"),
         Genre("Драма"),
-        Genre("Мультфильм"),
-        Genre("Триллер"),
+        Genre ("Криминал"),
         Genre("Комедия"),
-        Genre("Ужасы"),
-        Genre("Боевик")
+        Genre("Концерт"),
+        Genre("Мистика"),
+        Genre ("Романтика")
     )
 }
